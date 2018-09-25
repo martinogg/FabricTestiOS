@@ -74,6 +74,7 @@
 		EE05D931215ACED300E0E488 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		EE05D933215ACEED00E0E488 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		EE05D934215ACEED00E0E488 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EE05D937215ACFAF00E0E488 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				EE05D92F215ACE6C00E0E488 /* Firebase.h */,
+				EE05D937215ACFAF00E0E488 /* module.modulemap */,
 				EE05D926215ACE0400E0E488 /* FIRAnalyticsConnector.framework */,
 				EE05D922215ACE0400E0E488 /* FirebaseAnalytics.framework */,
 				EE05D924215ACE0400E0E488 /* FirebaseCore.framework */,
@@ -507,6 +509,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/fabTest/FirebaseLibs",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = fabTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -517,6 +520,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "/Users/martinogg/Documents/code/dabgaming/FabricTestiOS/fabTest/FirebaseLibs/**";
 			};
 			name = Debug;
 		};
@@ -529,6 +533,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/fabTest/FirebaseLibs",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = fabTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -539,6 +544,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "/Users/martinogg/Documents/code/dabgaming/FabricTestiOS/fabTest/FirebaseLibs/**";
 			};
 			name = Release;
 		};
