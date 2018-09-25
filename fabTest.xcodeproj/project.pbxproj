@@ -15,6 +15,18 @@
 		EE05D8F9215AC76D00E0E488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE05D8F7215AC76D00E0E488 /* LaunchScreen.storyboard */; };
 		EE05D904215AC76D00E0E488 /* fabTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE05D903215AC76D00E0E488 /* fabTestTests.swift */; };
 		EE05D90F215AC76D00E0E488 /* fabTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE05D90E215AC76D00E0E488 /* fabTestUITests.swift */; };
+		EE05D91D215ACA6F00E0E488 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE05D91C215ACA6F00E0E488 /* GoogleService-Info.plist */; };
+		EE05D927215ACE0400E0E488 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D91F215ACE0300E0E488 /* FirebaseCoreDiagnostics.framework */; };
+		EE05D928215ACE0400E0E488 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D920215ACE0400E0E488 /* GoogleAppMeasurement.framework */; };
+		EE05D929215ACE0400E0E488 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D921215ACE0400E0E488 /* FirebaseInstanceID.framework */; };
+		EE05D92A215ACE0400E0E488 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D922215ACE0400E0E488 /* FirebaseAnalytics.framework */; };
+		EE05D92B215ACE0400E0E488 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D923215ACE0400E0E488 /* GoogleUtilities.framework */; };
+		EE05D92C215ACE0400E0E488 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D924215ACE0400E0E488 /* FirebaseCore.framework */; };
+		EE05D92D215ACE0400E0E488 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D925215ACE0400E0E488 /* nanopb.framework */; };
+		EE05D92E215ACE0400E0E488 /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D926215ACE0400E0E488 /* FIRAnalyticsConnector.framework */; };
+		EE05D932215ACED300E0E488 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D931215ACED300E0E488 /* StoreKit.framework */; };
+		EE05D935215ACEED00E0E488 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D933215ACEED00E0E488 /* libsqlite3.0.tbd */; };
+		EE05D936215ACEED00E0E488 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D934215ACEED00E0E488 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,19 @@
 		EE05D90A215AC76D00E0E488 /* fabTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fabTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE05D90E215AC76D00E0E488 /* fabTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabTestUITests.swift; sourceTree = "<group>"; };
 		EE05D910215AC76D00E0E488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE05D91C215ACA6F00E0E488 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE05D91F215ACE0300E0E488 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		EE05D920215ACE0400E0E488 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		EE05D921215ACE0400E0E488 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		EE05D922215ACE0400E0E488 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		EE05D923215ACE0400E0E488 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		EE05D924215ACE0400E0E488 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		EE05D925215ACE0400E0E488 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		EE05D926215ACE0400E0E488 /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIRAnalyticsConnector.framework; sourceTree = "<group>"; };
+		EE05D92F215ACE6C00E0E488 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		EE05D931215ACED300E0E488 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EE05D933215ACEED00E0E488 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		EE05D934215ACEED00E0E488 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE05D935215ACEED00E0E488 /* libsqlite3.0.tbd in Frameworks */,
+				EE05D936215ACEED00E0E488 /* libsqlite3.tbd in Frameworks */,
+				EE05D932215ACED300E0E488 /* StoreKit.framework in Frameworks */,
+				EE05D92A215ACE0400E0E488 /* FirebaseAnalytics.framework in Frameworks */,
+				EE05D928215ACE0400E0E488 /* GoogleAppMeasurement.framework in Frameworks */,
+				EE05D92C215ACE0400E0E488 /* FirebaseCore.framework in Frameworks */,
+				EE05D92D215ACE0400E0E488 /* nanopb.framework in Frameworks */,
+				EE05D929215ACE0400E0E488 /* FirebaseInstanceID.framework in Frameworks */,
+				EE05D92B215ACE0400E0E488 /* GoogleUtilities.framework in Frameworks */,
+				EE05D927215ACE0400E0E488 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				EE05D92E215ACE0400E0E488 /* FIRAnalyticsConnector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +119,7 @@
 				EE05D902215AC76D00E0E488 /* fabTestTests */,
 				EE05D90D215AC76D00E0E488 /* fabTestUITests */,
 				EE05D8E9215AC76A00E0E488 /* Products */,
+				EE05D930215ACED300E0E488 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +136,14 @@
 		EE05D8EA215AC76A00E0E488 /* fabTest */ = {
 			isa = PBXGroup;
 			children = (
+				EE05D91E215ACDEC00E0E488 /* FirebaseLibs */,
 				EE05D8EB215AC76A00E0E488 /* AppDelegate.swift */,
 				EE05D8ED215AC76A00E0E488 /* ViewController.swift */,
 				EE05D8EF215AC76A00E0E488 /* Main.storyboard */,
 				EE05D8F5215AC76D00E0E488 /* Assets.xcassets */,
 				EE05D8F7215AC76D00E0E488 /* LaunchScreen.storyboard */,
 				EE05D8FA215AC76D00E0E488 /* Info.plist */,
+				EE05D91C215ACA6F00E0E488 /* GoogleService-Info.plist */,
 				EE05D8F2215AC76A00E0E488 /* fabTest.xcdatamodeld */,
 			);
 			path = fabTest;
@@ -126,6 +165,32 @@
 				EE05D910215AC76D00E0E488 /* Info.plist */,
 			);
 			path = fabTestUITests;
+			sourceTree = "<group>";
+		};
+		EE05D91E215ACDEC00E0E488 /* FirebaseLibs */ = {
+			isa = PBXGroup;
+			children = (
+				EE05D92F215ACE6C00E0E488 /* Firebase.h */,
+				EE05D926215ACE0400E0E488 /* FIRAnalyticsConnector.framework */,
+				EE05D922215ACE0400E0E488 /* FirebaseAnalytics.framework */,
+				EE05D924215ACE0400E0E488 /* FirebaseCore.framework */,
+				EE05D91F215ACE0300E0E488 /* FirebaseCoreDiagnostics.framework */,
+				EE05D921215ACE0400E0E488 /* FirebaseInstanceID.framework */,
+				EE05D920215ACE0400E0E488 /* GoogleAppMeasurement.framework */,
+				EE05D923215ACE0400E0E488 /* GoogleUtilities.framework */,
+				EE05D925215ACE0400E0E488 /* nanopb.framework */,
+			);
+			path = FirebaseLibs;
+			sourceTree = "<group>";
+		};
+		EE05D930215ACED300E0E488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE05D933215ACEED00E0E488 /* libsqlite3.0.tbd */,
+				EE05D934215ACEED00E0E488 /* libsqlite3.tbd */,
+				EE05D931215ACED300E0E488 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE05D8F9215AC76D00E0E488 /* LaunchScreen.storyboard in Resources */,
+				EE05D91D215ACA6F00E0E488 /* GoogleService-Info.plist in Resources */,
 				EE05D8F6215AC76D00E0E488 /* Assets.xcassets in Resources */,
 				EE05D8F1215AC76A00E0E488 /* Main.storyboard in Resources */,
 			);
@@ -437,11 +503,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fabTest/FirebaseLibs",
+				);
 				INFOPLIST_FILE = fabTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinogg.fabTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -454,11 +525,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fabTest/FirebaseLibs",
+				);
 				INFOPLIST_FILE = fabTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinogg.fabTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
