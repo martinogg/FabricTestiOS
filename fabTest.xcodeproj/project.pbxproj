@@ -27,6 +27,12 @@
 		EE05D932215ACED300E0E488 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D931215ACED300E0E488 /* StoreKit.framework */; };
 		EE05D935215ACEED00E0E488 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D933215ACEED00E0E488 /* libsqlite3.0.tbd */; };
 		EE05D936215ACEED00E0E488 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D934215ACEED00E0E488 /* libsqlite3.tbd */; };
+		EE05D93B215AD17700E0E488 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D939215AD17600E0E488 /* Fabric.framework */; };
+		EE05D93C215AD17700E0E488 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D93A215AD17700E0E488 /* Crashlytics.framework */; };
+		EE05D93F215AD1F600E0E488 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D93E215AD1F600E0E488 /* SystemConfiguration.framework */; };
+		EE05D941215AD20000E0E488 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D940215AD1FF00E0E488 /* Security.framework */; };
+		EE05D943215AD23800E0E488 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D942215AD23800E0E488 /* libc++.tbd */; };
+		EE05D945215AD24300E0E488 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05D944215AD24300E0E488 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +81,12 @@
 		EE05D933215ACEED00E0E488 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		EE05D934215ACEED00E0E488 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		EE05D937215ACFAF00E0E488 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		EE05D939215AD17600E0E488 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		EE05D93A215AD17700E0E488 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		EE05D93E215AD1F600E0E488 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EE05D940215AD1FF00E0E488 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EE05D942215AD23800E0E488 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		EE05D944215AD24300E0E488 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +94,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE05D945215AD24300E0E488 /* libz.tbd in Frameworks */,
+				EE05D943215AD23800E0E488 /* libc++.tbd in Frameworks */,
+				EE05D941215AD20000E0E488 /* Security.framework in Frameworks */,
+				EE05D93F215AD1F600E0E488 /* SystemConfiguration.framework in Frameworks */,
 				EE05D935215ACEED00E0E488 /* libsqlite3.0.tbd in Frameworks */,
 				EE05D936215ACEED00E0E488 /* libsqlite3.tbd in Frameworks */,
+				EE05D93C215AD17700E0E488 /* Crashlytics.framework in Frameworks */,
 				EE05D932215ACED300E0E488 /* StoreKit.framework in Frameworks */,
 				EE05D92A215ACE0400E0E488 /* FirebaseAnalytics.framework in Frameworks */,
 				EE05D928215ACE0400E0E488 /* GoogleAppMeasurement.framework in Frameworks */,
@@ -93,6 +110,7 @@
 				EE05D92B215ACE0400E0E488 /* GoogleUtilities.framework in Frameworks */,
 				EE05D927215ACE0400E0E488 /* FirebaseCoreDiagnostics.framework in Frameworks */,
 				EE05D92E215ACE0400E0E488 /* FIRAnalyticsConnector.framework in Frameworks */,
+				EE05D93B215AD17700E0E488 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +155,7 @@
 		EE05D8EA215AC76A00E0E488 /* fabTest */ = {
 			isa = PBXGroup;
 			children = (
+				EE05D938215AD16700E0E488 /* Fabric */,
 				EE05D91E215ACDEC00E0E488 /* FirebaseLibs */,
 				EE05D8EB215AC76A00E0E488 /* AppDelegate.swift */,
 				EE05D8ED215AC76A00E0E488 /* ViewController.swift */,
@@ -188,11 +207,24 @@
 		EE05D930215ACED300E0E488 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE05D944215AD24300E0E488 /* libz.tbd */,
+				EE05D942215AD23800E0E488 /* libc++.tbd */,
+				EE05D940215AD1FF00E0E488 /* Security.framework */,
+				EE05D93E215AD1F600E0E488 /* SystemConfiguration.framework */,
 				EE05D933215ACEED00E0E488 /* libsqlite3.0.tbd */,
 				EE05D934215ACEED00E0E488 /* libsqlite3.tbd */,
 				EE05D931215ACED300E0E488 /* StoreKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE05D938215AD16700E0E488 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				EE05D93A215AD17700E0E488 /* Crashlytics.framework */,
+				EE05D939215AD17600E0E488 /* Fabric.framework */,
+			);
+			path = Fabric;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +237,7 @@
 				EE05D8E4215AC76A00E0E488 /* Sources */,
 				EE05D8E5215AC76A00E0E488 /* Frameworks */,
 				EE05D8E6215AC76A00E0E488 /* Resources */,
+				EE05D93D215AD19100E0E488 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -321,6 +354,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EE05D93D215AD19100E0E488 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PROJECT_DIR}/FabTest/Fabric/Fabric.framework/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EE05D8E4215AC76A00E0E488 /* Sources */ = {
@@ -505,9 +559,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/fabTest/FirebaseLibs",
+					"$(PROJECT_DIR)/fabTest/Fabric",
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = fabTest/Info.plist;
@@ -529,9 +585,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/fabTest/FirebaseLibs",
+					"$(PROJECT_DIR)/fabTest/Fabric",
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = fabTest/Info.plist;
